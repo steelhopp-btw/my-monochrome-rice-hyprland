@@ -18,7 +18,7 @@
 
 ### 2. Клонирование репозитория
 ```bash
-https://github.com/steelhopp-btw/my-monochrome-rice-hyprland.git
+git clone https://github.com/steelhopp-btw/my-monochrome-rice-hyprland.git
 cd my-monochrome-rice-hyprland
 ```
 
