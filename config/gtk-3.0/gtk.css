@@ -1,0 +1,40 @@
+/* Применяем ко всему окну Nemo, включая заголовок и низ */
+.nemo-window, 
+.nemo-window headerbar, 
+.nemo-window toolbar,
+.nemo-window actionbar,
+.nemo-window statusbar {
+    background-color: #000000 !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    border-color: #222222 !important;
+}
+
+/* Основная рабочая область с файлами */
+.nemo-window .nemo-window-pane .view {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Боковая панель */
+.nemo-window .sidebar .view,
+.nemo-window .sidebar scrolledwindow {
+    background-color: #0d0d0d !important;
+    color: #e0e0e0 !important;
+}
+
+/* Кнопки и текстовые поля в верхней панели */
+.nemo-window entry, 
+.nemo-window button {
+    background-color: #222222 !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    border: 1px solid #444444 !important;
+    text-shadow: none !important;
+    icon-shadow: none !important;
+}
+
+/* Кнопки при наведении курсора */
+.nemo-window button:hover {
+    background-color: #333333 !important;
+}

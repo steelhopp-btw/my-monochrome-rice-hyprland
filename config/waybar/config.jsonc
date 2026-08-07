@@ -1,0 +1,47 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24, // Тонкий бар
+    "spacing": 0,
+    "modules-left": ["custom/logo", "hyprland/workspaces", "custom/arrow"],
+    "modules-center": [],
+    "modules-right": ["cpu", "pulseaudio", "clock"],
+
+    // Иконка в самом начале слева
+    "custom/logo": {
+        "format": "   ",
+        "tooltip": false
+    },
+
+    // Воркспейсы в формате [Workspace X]
+    "hyprland/workspaces": {
+        "format": "[Workspace {name}]",
+        "active-only": true, // Показывать только активный, как на скрине
+        "tooltip": false
+    },
+
+    // Текстовая стрелочка-разделитель
+    "custom/arrow": {
+        "format": " ",
+        "tooltip": false
+    },
+
+    // Процессор в скобках
+    "cpu": {
+        "format": "[CPU {usage}%]",
+        "interval": 2,
+        "tooltip": false
+    },
+
+    // Громкость в скобках
+    "pulseaudio": {
+        "format": "[VOL {volume}%]",
+        "tooltip": false
+    },
+
+    // Время в скобках (формат 12-часовой с AM/PM)
+    "clock": {
+        "format": "[{:%I:%M %p}]",
+        "tooltip": false
+    }
+}

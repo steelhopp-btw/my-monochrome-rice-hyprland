@@ -1,0 +1,44 @@
+* {
+font-family: "JetBrainsMono Nerd Font", "Fira Code", monospace;
+font-size: 11px; /* Мелкий аккуратный шрифт */
+font-weight: bold;
+border: none;
+border-radius: 0;
+padding: 0;
+margin: 0;
+}
+
+window#waybar {
+  /* Черный фон с прозрачностью 90% (альфа-канал 0.9) */
+  background-color: rgba(11, 11, 11, 0.9);
+  color: #aaaaaa; /* Светло-серый текст по умолчанию */
+}
+
+/* Логотип Arch */
+#custom-logo {
+color: #ffffff;
+padding-left: 6px;
+}
+
+/* Активный воркспейс */
+#workspaces button.active {
+color: #ffffff;
+background: transparent;
+padding: 0 2px;
+}
+
+/* Стрелочка */
+#custom-arrow {
+color: #888888;
+}
+
+/* Модули справа */
+#cpu, #pulseaudio, #clock {
+padding: 0 4px;
+color: #aaaaaa;
+}
+
+/* Последний элемент (время) чуть правее */
+#clock {
+padding-right: 8px;
+}

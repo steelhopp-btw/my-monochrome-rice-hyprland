@@ -1,0 +1,43 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "type": "small"
+  },
+  "display": {
+    "separator": "   "
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": " "
+    },
+    {
+      "type": "os",
+      "key": "os",
+      "format": "{3} {12}"
+    },
+    {
+      "type": "kernel",
+      "key": "kernel",
+      "format": "{2}"
+    },
+    {
+      "type": "packages",
+      "key": "pkgs"
+    },
+    {
+      "type": "uptime",
+      "key": "uptime"
+    },
+    {
+      "type": "memory",
+      "key": "memory"
+    },
+    {
+      "type": "disk",
+      "key": "disk",
+      "fold": "/",
+      "format": "{1} / {2} ({3}) - {9}"
+    }
+  ]
+}
