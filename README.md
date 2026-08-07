@@ -6,7 +6,7 @@
 
 * **WM:** Hyprland
 * **OS:** Arch Linux
-* **Shell:** Zsh / Fish
+* **Shell:** Fish
 * **Terminal:** / Alacritty
 * **Bar:** Waybar
 * **Launcher:** Rofi
@@ -18,8 +18,8 @@
 
 ### 2. Клонирование репозитория
 ```bash
-git clone https://github.com
-cd ИМЯ_РЕПОЗИТОРИЯ
+https://github.com/steelhopp-btw/my-monochrome-rice-hyprland.git
+cd my-monochrome-rice-hyprland
 ```
 
 ### 3. Копирование конфигурационных файлов
@@ -30,12 +30,7 @@ cp -r config/* ~/.config/
 
 ## ⌨️ Основные горячие клавиши
 
-* `Mod` + `Q` — Открыть терминал
-* `Mod` + `C` — Закрыть окно
-* `Mod` + `D` — Запустить меню приложений (Rofi/Wofi)
+* `Mod` + `Enter` — Открыть терминал
+* `Mod` + `Q` — Закрыть окно
+* `Mod` + `space` — Запустить меню приложений (Rofi/Wofi)
 * `Mod` + `M` — Выйти из Hyprland
-* `Mod` + `V` — Переключить плавающее состояние окна
-* `Mod` + `Стрелки` — Навигация между окнами
-
----
-*Создано с эстетикой и заботой об исходном коде.*
